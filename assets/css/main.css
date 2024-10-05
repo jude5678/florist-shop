@@ -3371,14 +3371,14 @@
 
 	#weddings {
 		text-align: center;
-		height: 60em;
+		height: 63em;
 		
 	}
 
 	#name, #email {
 
 		width: 10%;
-
+		margin: 0 auto;
 	}
 
 	.weddings-1 {
@@ -3492,7 +3492,7 @@
 		text-align: center;
 		height: 23em;
 		clear: both;
-		margin-top: 13em;
+		margin-top: 8em;
 	}
 
 	#cta .about-us, .hours, .contact-us {
