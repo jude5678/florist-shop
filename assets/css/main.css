@@ -3381,7 +3381,7 @@
 		margin: 0 auto;
 	}
 
-	#email {
+	.email {
 
 		margin-top: 1em;
 
@@ -3504,7 +3504,7 @@
 		text-align: center;
 		height: 23em;
 		clear: both;
-		margin-top: 8em;
+		margin-top: 5em;
 	}
 
 	#cta .about-us, .hours, .contact-us {
