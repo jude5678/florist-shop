@@ -3371,11 +3371,11 @@
 
 	#weddings {
 		text-align: center;
-		height: 54em;
+		height: 60em;
 		
 	}
 
-	#input {
+	#name, #email {
 
 		width: 10%;
 
