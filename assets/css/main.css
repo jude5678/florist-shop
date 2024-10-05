@@ -3371,13 +3371,13 @@
 
 	#weddings {
 		text-align: center;
-		height: 63em;
+		height: 65em;
 		
 	}
 
 	#name, #email {
 
-		width: 10%;
+		width: 20%;
 		margin: 0 auto;
 	}
 
