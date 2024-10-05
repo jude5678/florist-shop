@@ -3371,7 +3371,7 @@
 
 	#weddings {
 		text-align: center;
-		height: 65em;
+		height: 67em;
 		
 	}
 
@@ -3379,6 +3379,12 @@
 
 		width: 20%;
 		margin: 0 auto;
+	}
+
+	#email {
+
+		margin-top: 1em;
+
 	}
 
 	#submit {
