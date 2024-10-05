@@ -3371,8 +3371,14 @@
 
 	#weddings {
 		text-align: center;
-		height: 49em;
-		padding-bottom: 5em;
+		height: 54em;
+		
+	}
+
+	#input {
+
+		width: 10%;
+
 	}
 
 	.weddings-1 {
@@ -3486,7 +3492,7 @@
 		text-align: center;
 		height: 23em;
 		clear: both;
-		margin-top: 10em;
+		margin-top: 13em;
 	}
 
 	#cta .about-us, .hours, .contact-us {
