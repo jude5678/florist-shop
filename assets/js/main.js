@@ -14,7 +14,7 @@ function sendEmail(){
 
 	data = {
 	  "to": `${email}`,
-	  "subject": "Welcome `${name}`!",
+	  "subject": `Welcome ${name}!`,
 	  "template": "user-welcome",
 	  "templateVariables": {
 	"name": `${name}`
