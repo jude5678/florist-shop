@@ -4,6 +4,43 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+// Weddings Form
+
+document.querySelector('#submit').addEventListener('click', sendEmail)
+
+function sendEmail(){
+	let name = document.querySelector('#name').value
+	let email = document.querySelector('#email').value
+
+	data = {
+	  "to": `${email}`,
+	  "subject": "Welcome `${name}`!",
+	  "template": "user-welcome",
+	  "templateVariables": {
+	"name": `${name}`
+  		}
+	}
+
+	fetch("test_74JCihkIhVoAMQGaATu1iDoHz3MglCqD", {
+ 	 method: "POST",
+	  body: JSON.stringify(data),
+	  headers: {
+ 	   "Content-Type": "application/json",
+ 	   "Authorization": "token test_74JCihkIhVoAMQGaATu1iDoHz3MglCqD",
+ 	 },
+	})
+	.then(response => response.json()) 
+	.then(json => console.log(json))
+	.catch(err => console.log(err))
+
+	
+}
+
+
+
+
+
+
 (function($) {
 
 	var	$window = $(window),
