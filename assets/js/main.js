@@ -80,7 +80,9 @@ function sendEmail(){
 			)
 				.appendTo($body);
 
-		// Panel.
+	
+})(jQuery);
+	// Panel.
 			$(
 				'<div id="navPanel">' +
 					'<nav>' +
@@ -118,4 +120,4 @@ function sendEmail(){
 
 		}
 
-})(jQuery);
+
