@@ -26,7 +26,7 @@ function sendEmail(){
 	  body: JSON.stringify(data),
 	  headers: {
  	   "Content-Type": "application/json",
- 	   "Authorization": "token test_74JCihkIhVoAMQGaATu1iDoHz3MglCqD",
+ 	   "Authorization": "token live_cIVwfPHAEUmOrwpJeaXcq8UviCP04i/D",
  	 },
 	})
 	.then(response => response.json()) 
