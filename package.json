@@ -15,7 +15,7 @@
     "@medusajs/medusa": "2.8.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
     "@medusajs/test-utils": "2.8.2",
     "@swc/core": "1.5.7",
     "@swc/jest": "^0.2.36",
