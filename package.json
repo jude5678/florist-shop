@@ -10,7 +10,6 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0"
-    "@medusajs/medusa-cli": ""
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
